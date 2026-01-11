@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
         btn.addEventListener("click", () => {
             const isOpen = contentDivs[i].classList.contains("active");
             isOpen
-                ? (toggleBtnsImgs[i].src = "/assets/images/icon-plus.svg")
-                : (toggleBtnsImgs[i].src = "/assets/images/icon-minus.svg");
+                ? (toggleBtnsImgs[i].src = "./assets/images/icon-plus.svg")
+                : (toggleBtnsImgs[i].src = "./assets/images/icon-minus.svg");
             contentDivs[i].classList.toggle("active");
         });
     });
